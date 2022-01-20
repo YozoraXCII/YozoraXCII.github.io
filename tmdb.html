@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+     <title>Image Search</title>
+     <meta name="viewport" content="width=device-width, inital-scale=1">
+     <link rel="shortcut icon" type="image/png" href="images/2MP.png"/>
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- This is a search form that will take us to
+     https://www.google.com/search?tbm=isch&tbs=isz:ex,iszw:7680,iszh:4320&q=example
+     when we search for 𝚎𝚡𝚊𝚖𝚙𝚕𝚎. This search will show us only images, and
+     those images will all be 7680 pixels wide and 4320 pixels tall.
+
+     First we enclose everything in a <𝚏𝚘𝚛𝚖> whose 𝚊𝚌𝚝𝚒𝚘𝚗 is everything that
+     the search engine results page’s URI to the left of the question mark (?)
+     in it -->
+
+<div class="main">
+
+  <div class="container">
+
+      <div class="logo">
+          <img src="images/logo.png">
+      </div>
+
+     <div class="search-form">
+           <form action="https://www.themoviedb.org/search" method="get" autocomplete="off">
+
+               <div class="search">
+                 <img src="images/loupe.svg"> 
+                 <input name="query" size="35" type="text" placeholder="Search TMDB">
+               </div>
+<!-- Finally, we add the button the user can tap to enter their query,
+        so our 𝚝𝚢𝚙𝚎 is 𝚜𝚞𝚋𝚖𝚒𝚝. We can set our value to whatever we want
+        our button to say -->
+               <div class="submit">
+                 <input type="submit" value="Search TMDB">
+               </div>   
+               
+                <!-- <𝚏𝚘𝚛𝚖> is the only element we have used that we must close -->
+           </form>
+     </div>
+
+     <div class="serach-for">
+          <p>or</p>
+          <div class="links">
+               <span>
+          <a href="tpdb.html">Search TPDB</a> &nbsp; | &nbsp;
+          <a href="tmdb.html">Search TMDB</a> &nbsp; | &nbsp;
+          <a href="imdb.html">Search IMDB</a>
+               </span>
+                 </div>
+                 <div class="links links-2">
+     <span>
+          <a href="index.html">Search 2MP images</a> &nbsp; | &nbsp;
+          <a href="4MP.html">Search 4MP images</a> &nbsp; | &nbsp;
+          <a href="8MP.html">Search 8MP images</a>
+     </span>
+       </div>
+       <div class="links links-2">
+          <a href="https://github.com/SoaringGecko/8K-image-search/blob/pr/2/index.html">
+          Credit to SoaringGecko</a> 
+       </div>
+</div>
+
+</div>
+
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
