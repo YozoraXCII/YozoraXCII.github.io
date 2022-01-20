@@ -1,6 +1,6 @@
 # PMM Poster Search
 
-![](/images/pic2.PNG)
+![](/images/pic2.png)
 
 # Purpose
 <p>This tool is designed for PMM users to help them find images that can be used as posters for collections or other Plex media.
